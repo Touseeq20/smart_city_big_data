@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models (Too large for GitHub >100MB)
+*.pkl
+data/models/*.pkl
+
+# Venv
+.venv
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints
